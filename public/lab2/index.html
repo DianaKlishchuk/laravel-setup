@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Робота з файлами</title>
+</head>
+<body>
+
+    <h2>Лабораторна робота №2</h2>
+
+    <h3>1. Завантаження файлу</h3>
+
+    <form action="process.php" method="post" enctype="multipart/form-data">
+
+        <label for="file">Оберіть зображення:</label>
+        <input type="file" id="file" name="file" accept=".png,.jpg,.jpeg">
+
+        <br><br>
+
+        <input type="submit" value="Завантажити файл">
+
+    </form>
+
+    <hr>
+
+    <h3>5. Запис тексту у файл</h3>
+
+    <form action="text.php" method="post">
+
+        <label for="text">Введіть текст:</label>
+        <br>
+        <textarea id="text" name="text" rows="5" cols="50"></textarea>
+
+        <br><br>
+
+        <input type="submit" value="Зберегти текст">
+
+    </form>
+
+    <hr>
+
+    <a href="list.php">Переглянути список завантажених файлів</a>
+
+</body>
+</html>
