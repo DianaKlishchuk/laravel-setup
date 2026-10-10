@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 24px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f2f4f7;
+    color: #222;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    color: #552437;
+}
+
+.panel {
+    margin: 18px 0;
+    padding: 18px 22px;
+    background: white;
+    border-radius: 8px;
+    border: 1px solid #d9e0e8;
+}
+
+a {
+    color: rgb(160, 20, 125);
+}
+
+a:hover {
+    color: rgb(111, 11, 68);
+}
