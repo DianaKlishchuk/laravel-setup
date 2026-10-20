@@ -1,11 +1,7 @@
 <?php
 
-// Директорія із завантаженими файлами
 $uploadDir = "uploads/";
-
-// Отримуємо список файлів
 $files = scandir($uploadDir);
-
 ?>
 
 <!DOCTYPE html>
@@ -20,19 +16,16 @@ $files = scandir($uploadDir);
 
 <?php
 
-// Перевіряємо список файлів
 if (count($files) > 2) {
 
     echo "<ul>";
 
     foreach ($files as $file) {
 
-        // Пропускаємо службові елементи
         if ($file == "." || $file == "..") {
             continue;
         }
 
-        // Виводимо файл як посилання
         echo "<li>";
         echo '<a href="' . $uploadDir
             . rawurlencode($file)
