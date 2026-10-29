@@ -1,0 +1,26 @@
+body { font-family: Arial, sans-serif; background: #f2f4f8; margin: 0; }
+
+.box { max-width: 380px; margin: 60px auto; background: #fff; padding: 28px;
+border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,.1); }
+
+h2 { margin-top: 0; text-align: center; }
+
+label { display: block; margin: 14px 0 4px; font-size: 14px; }
+
+input[type=text], input[type=email], input[type=password] {
+  width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 6px; box-sizing: border-box; }
+
+button { width: 100%; margin-top: 20px; padding: 11px; border: 0; border-radius: 6px;
+background: #5376bb; color: #fff; font-size: 16px; cursor: pointer; }
+
+button:hover { background: #2559c4; }
+
+.error { background: #fdecea; color: #741612; padding: 10px; border-radius: 6px; margin-bottom: 10px; }
+
+.error p { margin: 4px 0; }
+
+.success { background: #e7f6ec; color: #1c5f32; padding: 10px; border-radius: 6px; margin-bottom: 10px; }
+
+.link { text-align: center; margin-top: 16px; font-size: 14px; }
+
+.logout { display: inline-block; margin-top: 16px; color: #2f6fed; }
